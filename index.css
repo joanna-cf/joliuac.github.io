@@ -1,0 +1,127 @@
+html {
+    height: 100%
+}
+
+    body {
+        width: 100%;
+        height: 100%;
+        background-color: #fae3d6;
+    }
+
+    header {
+        background-color: #6BBAB5;
+        padding: 1px;
+        font-size: 25px;
+        display: box;
+        border-color: #112F3B;
+        border: solid;
+        border-width: 15px;
+        color: #112F3B;
+        text-align: center
+    }   
+
+    header h4 {
+        font-size: 20px;
+    }
+
+    header a {
+        text-decoration: none;
+        color: #112F3B;
+    }
+
+    nav {
+        float: left;
+        width: 100%;
+    }
+
+    nav ul {
+        padding: 0;
+        text-align: center;
+        display: box;
+        background: #fae3d6;
+        border-color: #6BBAB5;
+        border: solid;
+        border-width: 5px;
+        color: #112F3B;
+    }
+
+    nav ul li {
+        display: inline-block;
+        list-style-type: none;
+    }
+
+    nav li a {
+        display: inline-block;
+        height: 25px;
+        padding: 12px 18px 8px 18px;
+        vertical-align: middle;
+        text-decoration: none;
+        color: #112F3B;
+    }
+    
+    a {
+        text-decoration: none
+        color: #112F3B
+    }
+
+    .column {
+        float: left;
+        width: 33.33%;
+    }
+
+    .row:after {
+        content: "";
+        display: table;
+        clear: both;
+    }
+
+    section {
+        width: 100%;
+        display: inline-block;
+        float: center;
+    }
+
+    img {
+        display: block;
+        width: fit-content;
+        vertical-align: middle;
+        margin: auto;
+        float: center;
+        border-color: #6BBAB5;
+        border: solid;
+        border-width: 5px;
+    }
+
+    .center {
+        margin: auto;
+        width: 50%;
+        padding: 10px;
+      }
+
+    section a {
+        text-decoration: none;
+        color: rgb(69, 119, 116);
+    }
+
+    footer ul {
+        padding: 0;
+        text-align: center;
+        display: box;
+        background: #fae3d6;
+        border-color: #6BBAB5;
+        border: solid;
+        border-width: 2px;
+    }
+
+    footer li {
+        display: inline-block;
+        height: 25px;
+        padding: 12px 18px 8px 18px;
+        vertical-align: middle;
+        text-decoration: none;
+    }
+
+    footer li a {
+        text-decoration: none;
+        color: #2b7379;
+    }
